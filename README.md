@@ -1,4 +1,4 @@
-# blog-vue
+# vue-registration
 
 ## Project setup
 ```

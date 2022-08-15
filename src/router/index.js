@@ -7,17 +7,11 @@ const routes = [
         path: '/',
         name: 'registration',
         component: RegistrationView,
-        meta: {
-            keepAlive: false
-        }
     },
     {
-        path: '/authorization',
+        path: '/login',
         name: 'authorization',
         component: AuthorizationView,
-        meta: {
-            keepAlive: false
-        }
     },
 ]
 

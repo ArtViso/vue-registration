@@ -6,6 +6,7 @@ module.exports = {
   ],
   theme: {
     extend: {
+      border: ['focus'],
       container: {
         padding: "20px",
         center: true

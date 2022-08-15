@@ -1,10 +1,9 @@
 <template>
   <section>
-    <div v-if="$route.meta.keepAlive">
+    <div>
       <main>
         <router-view></router-view>
       </main>
     </div>
-    <router-view v-if="!$route.meta.keepAlive"></router-view>
   </section>
 </template>
